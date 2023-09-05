@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configurations\AIT_CumulativeModelManagment-1.0.0.1.pmszcfg" />
+    <None Remove="Configurations\PMSZ.BIS.CFG.WF-1.3.0.386.pmszcfg" />
+    <None Remove="Configurations\PMSZ.PLMSOYUZ.CFG.BASIC-1.0.0.481.pmszcfg" />
+    <None Remove="Configurations\PMSZ.PLMSOYUZ.CFG.MACHINERY.STD-1.0.0.377.pmszcfg" />
+    <None Remove="Configurations\PMSZ.PLMSOYUZ.CFG.MACHINERY.STD.DOCS-1.0.0.38.pmszcfg" />
+    <None Remove="Configurations\PMSZ.PLMSOYUZ.CFG.MACHINERY.STD.DOCS-1.0.0.50.pmszcfg" />
+    <None Remove="Configurations\PMSZ.PLMSOYUZ.CFG.MSOFFICE-1.0.0.69.pmszcfg" />
+    <None Remove="PLMInstallers\pmsz.bis-3.3.0.568-230630.msi" />
+    <None Remove="PLMInstallers\pmsz.plmsoyuz-3.0.0.58-230528.msi" />
+    <None Remove="Resources\ait.png" />
+    <None Remove="XMLs\Xml_AIT_Configuration.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Configurations\AIT_CumulativeModelManagment-1.0.0.1.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\PMSZ.BIS.CFG.WF-1.3.0.386.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\PMSZ.PLMSOYUZ.CFG.BASIC-1.0.0.481.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\PMSZ.PLMSOYUZ.CFG.MACHINERY.STD-1.0.0.377.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\PMSZ.PLMSOYUZ.CFG.MACHINERY.STD.DOCS-1.0.0.38.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\PMSZ.PLMSOYUZ.CFG.MACHINERY.STD.DOCS-1.0.0.50.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Configurations\PMSZ.PLMSOYUZ.CFG.MSOFFICE-1.0.0.69.pmszcfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PLMInstallers\pmsz.bis-3.3.0.568-230630.msi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PLMInstallers\pmsz.plmsoyuz-3.0.0.58-230528.msi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ait.png" />
+    <Content Include="XMLs\Xml_AIT_Configuration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="7.0.2" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

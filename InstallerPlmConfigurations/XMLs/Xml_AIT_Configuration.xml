@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<config>
+		<name>Кумулятивня модель данных</name>
+		<files>
+			<filename>AIT_CumulativeModelManagment-1.0.0.1.pmszcfg</filename>
+			<filename>PMSZ.BIS.CFG.WF-1.3.0.386.pmszcfg</filename>
+		</files>
+	</config>
+	<config>
+		<name>BASIC</name>
+		<files>
+			<filename>PMSZ.PLMSOYUZ.CFG.BASIC-1.0.0.481.pmszcfg</filename>
+		</files>		
+	</config>
+</configs>

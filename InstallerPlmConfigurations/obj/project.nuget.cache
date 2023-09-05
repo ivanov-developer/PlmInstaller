@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aeu7IJD75moXb9IR6m+hMr3vLxTYDIaVcrp4VUdZBmk+0zcyurr3MBxEy00lAEMZ5M5qCUsZXqt+p57opy66gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\79968\\source\\repos\\InstallerPlmConfigurations\\InstallerPlmConfigurations\\InstallerPlmConfigurations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\79968\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\79968\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\79968\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
+    "C:\\Users\\79968\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.1\\system.serviceprocess.servicecontroller.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

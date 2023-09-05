@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallerPlmConfigurations", "InstallerPlmConfigurations\InstallerPlmConfigurations.csproj", "{92A6680D-4625-442E-A396-1EEB25851C62}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupPlmSoyuz", "SetupPlmSoyuz\SetupPlmSoyuz.vdproj", "{D696E1BB-237E-4A40-860D-E51AD4A090A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92A6680D-4625-442E-A396-1EEB25851C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A6680D-4625-442E-A396-1EEB25851C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A6680D-4625-442E-A396-1EEB25851C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A6680D-4625-442E-A396-1EEB25851C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D696E1BB-237E-4A40-860D-E51AD4A090A4}.Debug|Any CPU.ActiveCfg = Debug
+		{D696E1BB-237E-4A40-860D-E51AD4A090A4}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01EA9479-B187-45FB-89C3-7C429DC960CB}
+	EndGlobalSection
+EndGlobal
